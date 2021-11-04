@@ -179,6 +179,7 @@ namespace InterviewTask.Services
 
             var elementToDayNull = rnd.Next(0, listCount - 1);
 
+            //Additional task
             //Simulate a lack of response from the server: 10% of the time, set weekday opening hours to null
             // Handle this bug in your view - a simple error message (We're sorry, we are temporarily unable to display etc etc ) in the view cards is fine
             if (rnd.Next(1, 10) > 9)

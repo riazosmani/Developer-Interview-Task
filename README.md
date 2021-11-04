@@ -4,7 +4,7 @@
 ## Task
 We would like you to demonstrate your development skills by delivering a single page web site based on a set of requirements that match the way we deliver solutions within our team.
 
-* We don't expect that this task should take longer than **2 hours**.  However, the amount of time you spend is entirely up to you
+* We don't expect that this task should take longer than a few hours.  However, the amount of time you spend is entirely up to you
 * You will need a **GitHub account** to clone this repository (Developer-Interview-Task)
 * Once you have finished, please push it to your own GitHub repository and let us know
 
@@ -69,7 +69,11 @@ Create a simple logger service (from scratch, to a file) that can capture all re
 
 **AC6: Backend**
 
-We'd like the current weather for each of the helper regions under their name - rough location is fine.  Create a button, that when pressed calls an action on a controller that sends a request to a weather API https://openweathermap.org/current (full documentation on that page) and display the response on the page.  Do not worry too much about the presentation - this isn't a test of front-end skills.  
+We'd like the current weather for each of the helper regions under their name - rough location is fine.
+
+Create a button, that when pressed calls an action on a controller that sends a request to a weather API https://openweathermap.org/current (full documentation on that page) and display the response on the page.
+
+You will need to registar to gain access to an API key which has free usage - we recommend you do this earlier, as there may sometimes be delay in key activation.
 
 
 ### Integration
