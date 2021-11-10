@@ -9,6 +9,7 @@ namespace InterviewTask.Controllers
          */
         public ActionResult Index()
         {
+            // Testing a commit
             return View();
         }
     }
