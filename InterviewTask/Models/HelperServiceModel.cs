@@ -9,6 +9,7 @@ namespace InterviewTask.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public string TelephoneNumber { get; set; }
+        public string WeatherLocation { get; set; }
 
         public List<int> MondayOpeningHours { get; set; }
         public List<int> TuesdayOpeningHours { get; set; }
