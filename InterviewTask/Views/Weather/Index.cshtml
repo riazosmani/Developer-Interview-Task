@@ -1,0 +1,16 @@
+﻿@model InterviewTask.Models.WeatherModel
+@{
+    ViewBag.Title = "Weather";
+    var temperature = string.Format("{0} Celcius", Model.Temperature);
+    var humidity = string.Format("{0}%", Model.Humidity);
+}
+
+<h3>City = @Model.City</h3>
+<h3>Condition = @Model.Description</h3>
+<h3>Temparature = @temperature</h3>
+<h3>Humidity = @humidity</h3>
+
+<input type="button"
+       value="Back to Helpers"
+       onclick="location.href='@Url.Action("Index", "Home")'" />
+
